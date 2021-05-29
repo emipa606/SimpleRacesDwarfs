@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="DwarfFactionBase">
+    <settlementTexturePath>World/WorldObjects/DefaultFactionBase</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.523, 0.247)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef ParentName="DwarfFactionBase">
+    <defName>DwarfColony</defName>
+    <label>Dwarf Colony</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Dwarf</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>DwarfBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Rural</li>
+      <li>Tribal</li>
+    </hairTags>
+    <apparelStuffFilter>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef ParentName="DwarfFactionBase">
+    <defName>DwarfPlayerTribe</defName>
+    <label>Dwarf Tribe</label>
+    <description>Your own tribe of Dwarfs.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Dwarf</basicMemberKind>
+    <pawnsPlural>Dwarfs</pawnsPlural>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>DwarfBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <apparelStuffFilter>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>

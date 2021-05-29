@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>AttendedDwarvenParty</defName>
+    <durationDays>10.0</durationDays>
+    <stackLimit>15</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>attended dwarven party</label>
+        <description>I had a good time at that party. Nobody party like a dwarf!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

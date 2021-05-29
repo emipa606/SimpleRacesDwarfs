@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BaseDwarfPawnKind">
+    <race>Alien_Dwarf</race>
+    <combatPower>70</combatPower>
+    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseDwarfPawnKind">
+    <defName>Dwarf</defName>
+    <label>colonist</label>
+    <defaultFactionType>DwarfColony</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>DwarfBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>750</min>
+      <max>1000</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>
