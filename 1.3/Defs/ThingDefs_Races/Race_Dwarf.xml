@@ -93,10 +93,6 @@
       </generalSettings>
       <graphicPaths>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-        <getsGreyAt>70</getsGreyAt>
-      </hairSettings>
       <thoughtSettings>
         <cannotReceiveThoughts>
           <li>KnowPrisonerSold</li>
