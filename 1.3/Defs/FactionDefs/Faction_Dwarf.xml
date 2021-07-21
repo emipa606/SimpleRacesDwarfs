@@ -7,6 +7,7 @@
     <pawnsPlural>Dwarfs</pawnsPlural>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
     <maxCountAtGameStart>2</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
