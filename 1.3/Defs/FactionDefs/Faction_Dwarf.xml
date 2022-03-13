@@ -31,6 +31,18 @@
     <allowedCultures>
       <li>Dwarfinarum</li>
     </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-60</min>
       <max>65</max>
@@ -50,6 +62,7 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
+          <DwarfRecruit>100</DwarfRecruit>
           <DwarfSoldier>100</DwarfSoldier>
           <DwarfArcher>100</DwarfArcher>
           <DwarfKing>1</DwarfKing>
@@ -58,14 +71,33 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
+          <DwarfRecruit>100</DwarfRecruit>
           <DwarfSoldier>100</DwarfSoldier>
           <DwarfArcher>100</DwarfArcher>
           <DwarfKing>10</DwarfKing>
         </options>
       </li>
       <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <DwarfTrader>1</DwarfTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <DwarfRecruit>100</DwarfRecruit>
+          <DwarfSoldier>100</DwarfSoldier>
+          <DwarfArcher>100</DwarfArcher>
+        </guards>
+      </li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
+          <DwarfRecruit>100</DwarfRecruit>
           <DwarfSoldier>100</DwarfSoldier>
           <DwarfArcher>100</DwarfArcher>
           <DwarfKing>10</DwarfKing>

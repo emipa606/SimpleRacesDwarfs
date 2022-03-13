@@ -30,6 +30,26 @@
     <itemQuality>Normal</itemQuality>
   </PawnKindDef>
   <!-- ============================ Dwarf Military ========================== -->
+  <PawnKindDef ParentName="DwarfBase">
+    <defName>DwarfTrader</defName>
+    <label>dwarf trader</label>
+    <trader>true</trader>
+    <combatPower>45</combatPower>
+    <isFighter>false</isFighter>
+    <gearHealthRange>1~1</gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <weaponMoney>
+      <min>200</min>
+      <max>800</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMelee</li>
+    </weaponTags>
+    <apparelMoney>400~600</apparelMoney>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+  </PawnKindDef>
   <PawnKindDef ParentName="DwarfMilBase">
     <defName>DwarfRecruit</defName>
     <label>Recruit</label>
