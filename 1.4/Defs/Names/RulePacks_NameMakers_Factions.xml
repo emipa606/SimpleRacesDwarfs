@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerFactionDwarf</defName>
+    <rulePack>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>colonyname</keyword>
+          <path>NameGen/FactionNamesDwarf</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

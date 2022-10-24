@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonDwarf</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[tribalword] [triballast]</li>
+        <li>name-&gt;[tribalword] '[nick]' [triballast]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>tribalword</keyword>
+          <path>NameGen/DwarfFirst</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>nick</keyword>
+          <path>NameGen/DwarfNick</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>triballast</keyword>
+          <path>NameGen/DwarfLast</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>
